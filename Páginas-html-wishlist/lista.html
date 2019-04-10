@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="iziModal-master/css/iziModal.min.css">
+    <link rel="stylesheet" href="iziModal-master/css/iziModal.css">
+    <link rel="stylesheet" href="css/lista.css">
+    <link href="https://fonts.googleapis.com/css?family=Niconne|Open+Sans" rel="stylesheet">
+    <script src="iziModal-master/js/jquery.min.js"></script>
+    <script src="iziModal-master/js/iziModal.min.js"></script>
+    <script src="iziModal-master/js/iziModal.js"></script>
+    <title>Lista de Desejos</title>
+</head>
+
+<body>
+    <div class="borda">
+        <nav>
+            <h1> <img src="css/logo.png"> We Wish It</h1>
+            <input type="button" name="Cadastrar Desejo" data-izimodal-open="#modal-desejo" data-izimodal-transitionin="fadeInDown" id="caddesejo" value="Cadastrar Desejo" />
+        </nav>
+    </div>
+
+    <div id="modal-desejo" data-iziModal-fullscreen="true" data-iziModal-title="Cadastre um novo desejo" data-iziModal-subtitle="We Wish It"
+        data-iziModal-icon="icon-home">
+        <textarea id="comentario" cols="30" rows="10" placeholder="Seu desejo aqui..."></textarea>
+    </div>
+
+
+
+</body>
+<script>
+    $("#modal-desejo").iziModal();
+</script>
+
+</html>

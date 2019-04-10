@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: url("bg.jpg"); 
+    font-size: 15px; 
+    display: flex;
+    flex-direction:column;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.centralizar1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 32%;
+}
+.campos1{
+    border-radius: 20px;
+    padding: 35px;
+    background: white;
+    box-shadow: 1px 1px 10px #999999;
+}
+
+.campos1 img {
+    max-width:30%;
+}
+
+.titulos1 h1{
+    font-family: 'Niconne', cursive;
+    font-size:55px;
+    font-weight: bold;
+    color: purple
+}
+.titulos1 h3{
+    font-size: 1.3vw
+}
+
+.email1{
+    margin-top: 3vw;
+}
+.email1, .senha1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.15vw;
+    margin-bottom:15px;
+}
+
+.email1 p {
+    align-items: center;
+    margin-right: 6px;
+}
+.email1 input, .senha1 input{
+    height: 1.7vw;
+    margin-left: 5px;
+    padding:2px;
+    padding-left:5px;
+    width: 30vw;
+    text-align: left;
+    font-size: 15px;
+    color:#303030;
+    border:none;
+    border:1px solid #3f3f3fc4;
+}
+.button1{
+    height: 1.7vw;
+    width: 35%;
+    align-self: center;
+    background: purple;
+    border-radius: 5px;
+    border: 1px solid purple;
+    color:white;
+    box-shadow: 1px 1px 5px #303030b3;
+    font-size: 1.05vw;
+    margin-top:15px;
+    margin-bottom: 2vw;
+}
+
+.button1:hover {
+    background-color:white;
+    color:purple;
+    cursor:pointer;
+}
+.campos1 a{
+    text-decoration: none;
+    color: purple
+}
+

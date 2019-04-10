@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("bg.jpg");  
+    font-size: 15px; 
+}
+
+nav {
+    background:white;
+    box-shadow: 2px 2px 5px #303030b4;
+    height:60px;
+    width:100%;
+    position: fixed;
+    top:0;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:60px;
+    padding-right:60px;
+}
+
+nav h1 {
+    font-family: 'Niconne', cursive;
+    font-size:35px;
+    font-weight: bold;
+    color: purple;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 img {
+    max-height:40px;
+}
+
+#caddesejo {
+    height: 35px;
+    padding:3px;
+    padding-left:10px;
+    padding-right:10px;
+    align-self: center;
+    background: purple;
+    border-radius: 5px;
+    border: 1px solid purple;
+    color:white;
+    box-shadow: 1px 1px 5px #303030b3;
+    font-size: 1.05vw;
+}
+
+#caddesejo:hover {
+    background-color:white;
+    color:purple;
+    cursor:pointer;
+}
+
+#modal-desejo textarea{
+    outline: none;
+    resize: none;
+    width: 85%;
+    margin-top: 1vw;
+    border: none
+}
+#modal-desejo{
+    text-align: center;
+    margin-top: 10vw
+}
+
